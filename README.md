@@ -1,5 +1,5 @@
 # introsde-2015-assignment-1
-This is the description of what is done to accomplish the assignment 1 for 
+This is the description of the code for the assignment 1 for 
 Introduction to Service Design and Engineering course (University of Trento, EIT Digital 
 Master program). 
 

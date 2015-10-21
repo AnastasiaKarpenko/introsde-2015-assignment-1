@@ -16,7 +16,7 @@ In the main root folder you will find the files that will run a code specific to
 - build.xml - the file contains  JAXB XJC which will generate necessary java classes for marshalling, 
   compiles and runs the project.
 - people1.xml is a file that contains the list of people with their healthprofiles
-- people.xsd - XML schema based on people1.xml, is used in build.xml for generation of the java classes for marshalling.
+- people.xsd - XML schema for people1.xml, is used in build.xml for generation of the java objects for marshalling.
 
 In the folder People/src:
 - HealthProfileReader.java uses xPath to retrieve the necessary data from people1.xml
@@ -34,20 +34,16 @@ In the folder People/src:
 		3) the healthprofile of the person with an id 0005, 
 		4) people who weight >90Kg.
 
-- build.xml will run a target "generate" and will generate java-files according to people.xsd
-  These files will be used in the marshalling process. The generated java files will be located in the folder 
-  People/src/people/generated . Build compiles and runs all the targets to show the outcome of the project: print people
-  detals using XPath, marshal and un-marshal files, marshal to JSON.
+- build.xml compiles, generates  and runs all the other targets in order to show the outcome of the project: print people details using XPath, marshal and un-marshal files, marshal to JSON. 
+Before executing the "compile" target, ivy.jar will be downloaded into an "ivy" folder, and libraries that are specified in "ivy.xml" will be downloaded to "lib". The target "generate" will create the folder People/src/people/generated with 4 java files in it. They are the result of generating classes based on the XML schema defined in people.xsd. These files will be used in the marshalling process (both to XML and to JSON). 
   
 - JAXBMarshaller.java created 3 people with healthprofiles using java-files generated previously by build.xml and 
 marshals them into xml. After running marshalling target by build.xml in the main forder there will be created an XML
 file named people.xml that will contain the information about these 3 people. 
 
-- JAXBUnMarshaller.java will use people.xml (people list) to un-marshal people in the list from XML back to java objects.
-that will be based in automatically created folder build/people/generated
+- JAXBUnMarshaller.java will use people.xml (people list) to un-marshal people in the list from XML back to java objects which will be based in automatically created folder build/people/generated
 
-- JSONMarshaller.java creates 3 people on the basis of java objects generated previously by build.xml and marshals them
-into JSON. It  will create people.json file in the main root folder.
+- JSONMarshaller.java creates 3 people on the basis of java objects generated previously by build.xml and marshals them into JSON. It  will create people.json file in the main root folder.
 
 ###How to run the project
 

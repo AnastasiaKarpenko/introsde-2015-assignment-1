@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<people>
+    <person id="0001">
+        <firstname>George R. R.</firstname>
+        <lastname>Martin</lastname>
+        <birthdate>1984-09-20T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>90</weight>
+            <height>1.70</height>
+            <bmi>31.14</bmi>
+        </healthprofile>
+    </person>
+    <person id="0002">
+        <firstname>Laura</firstname>
+        <lastname>Pausini</lastname>
+        <birthdate>1974-05-16T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:10:00.000+02:00</lastupdate>
+            <weight>56</weight>
+            <height>1.69</height>
+            <bmi>19.60</bmi>
+        </healthprofile>
+    </person>
+    <person id="0003">
+        <firstname>Madonna Louise Veronica</firstname>
+        <lastname>Ciccone</lastname>
+        <birthdate>1958-08-16T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:15:00.000+02:00</lastupdate>
+            <weight>50</weight>
+            <height>1.64</height>
+            <bmi>18.60</bmi>
+        </healthprofile>
+    </person>
+    <person id="0004">
+        <firstname>Gordon</firstname>
+        <lastname>Sumner</lastname>
+        <birthdate>1951-10-02T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:20:00.000+02:00</lastupdate>
+            <weight>89</weight>
+            <height>1.76</height>
+            <bmi>28.70</bmi>
+        </healthprofile>
+    </person>
+    <person id="0005">
+        <firstname>Freddie</firstname>
+        <lastname>Mercury</lastname>
+        <birthdate>1946-09-05T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:25:00.000+02:00</lastupdate>
+            <weight>70</weight>
+            <height>1.70</height>
+            <bmi>24.20</bmi>
+        </healthprofile>
+    </person>
+    <person id="0006">
+        <firstname>Brian</firstname>
+        <lastname>May</lastname>
+        <birthdate>1947-07-19T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:30:00.000+02:00</lastupdate>
+            <weight>92</weight>
+            <height>1.88</height>
+            <bmi>26.00</bmi>
+        </healthprofile>
+    </person>
+    <person id="0007">
+        <firstname>Roger</firstname>
+        <lastname>Federer</lastname>
+        <birthdate>1984-09-20T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2081-08-08T18:35:00.000+02:00</lastupdate>
+            <weight>86</weight>
+            <height>1.85</height>
+            <bmi>25.10</bmi>
+        </healthprofile>
+    </person>
+    <person id="0008">
+        <firstname>Roger</firstname>
+        <lastname>Taylor</lastname>
+        <birthdate>1949-07-26T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:38:00.000+02:00</lastupdate>
+            <weight>87</weight>
+            <height>1.79</height>
+            <bmi>27.20</bmi>
+        </healthprofile>
+    </person>
+    <person id="0009">
+        <firstname>Paul David</firstname>
+        <lastname>Hewson</lastname>
+        <birthdate>1960-05-10T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:40:00.000+02:00</lastupdate>
+            <weight>89</weight>
+            <height>1.68</height>
+            <bmi>31.50</bmi>
+        </healthprofile>
+    </person>
+    <person id="0010">
+        <firstname>Filippo</firstname>
+        <lastname>Neviani</lastname>
+        <birthdate>1972-01-20T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-06T18:42:00.000+02:00</lastupdate>
+            <weight>85</weight>
+            <height>1.70</height>
+            <bmi>29.40</bmi>
+        </healthprofile>
+    </person>
+    <person id="0011">
+        <firstname>Tiziano</firstname>
+        <lastname>Ferro</lastname>
+        <birthdate>1980-02-21T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:45:00.000+02:00</lastupdate>
+            <weight>80</weight>
+            <height>1.81</height>
+            <bmi>24.40</bmi>
+        </healthprofile>
+    </person>
+    <person id="0012">
+        <firstname>Britney</firstname>
+        <lastname>Spears</lastname>
+        <birthdate>1981-12-03T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:48:00.000+02:00</lastupdate>
+            <weight>50</weight>
+            <height>1.63</height>
+            <bmi>18.80</bmi>
+        </healthprofile>
+    </person>
+    <person id="0013">
+        <firstname>Alec</firstname>
+        <lastname>Baldwin</lastname>
+        <birthdate>1958-04-03T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:49:00.000+02:00</lastupdate>
+            <weight>94</weight>
+            <height>1.83</height>
+            <bmi>27.50</bmi>
+        </healthprofile>
+    </person>
+    <person id="0014">
+        <firstname>Kim</firstname>
+        <lastname>Basinger</lastname>
+        <birthdate>1963-12-08T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>50</weight>
+            <height>1.71</height>
+            <bmi>17.10</bmi>
+        </healthprofile>
+    </person>
+    <person id="0015">
+        <firstname>Christina</firstname>
+        <lastname>Aguilera</lastname>
+        <birthdate>1980-12-18T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>50</weight>
+            <height>1.57</height>
+            <bmi>20.30</bmi>
+        </healthprofile>
+    </person>
+    <person id="0016">
+        <firstname>Ricky</firstname>
+        <lastname>Martin</lastname>
+        <birthdate>1971-12-24T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>80</weight>
+            <height>1.83</height>
+            <bmi>24.40</bmi>
+        </healthprofile>
+    </person>
+    <person id="0017">
+        <firstname>Nicolas</firstname>
+        <lastname>Sarkozy</lastname>
+        <birthdate>1955-01-28T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>75</weight>
+            <height>1.68</height>
+            <bmi>26.60</bmi>
+        </healthprofile>
+    </person>
+    <person id="0018">
+        <firstname>Carla.</firstname>
+        <lastname>Bruni</lastname>
+        <birthdate>1967-09-23T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>54</weight>
+            <height>1.75</height>
+            <bmi>17.60</bmi>
+        </healthprofile>
+    </person>
+    <person id="0019">
+        <firstname>Monica</firstname>
+        <lastname>Bellucci</lastname>
+        <birthdate>1964-09-30T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>55</weight>
+            <height>1.71</height>
+            <bmi>18.80</bmi>
+        </healthprofile>
+    </person>
+    <person id="0020">
+        <firstname>Elisabetta</firstname>
+        <lastname>Canalis</lastname>
+        <birthdate>1978-09-12T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>50</weight>
+            <height>1.70</height>
+            <bmi>17.30</bmi>
+        </healthprofile>
+    </person>
+</people>

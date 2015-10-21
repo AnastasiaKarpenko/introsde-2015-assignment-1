@@ -1,0 +1,30 @@
+<xsd:schema 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="people" type="peopleType"/>
+  <xsd:complexType name="peopleType">
+    <xsd:sequence>
+      <xsd:element ref="person"  minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+    <xsd:complexType name="personType">
+        <xsd:sequence>
+            <xsd:element name="firstname" type="xsd:string"       />
+            <xsd:element name="lastname"  type="xsd:string"       />
+            <xsd:element name="birthdate" type="xsd:string"       />   
+            <xsd:element name="healthprofile" type="healthProfileType"/>
+        </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:int"/>
+    </xsd:complexType>
+    <xsd:complexType name="healthProfileType">
+        <xsd:sequence>
+            <xsd:element name="lastupdate"  type="xsd:string"/>
+            <xsd:element name="weight" type="xsd:double"/>
+            <xsd:element name="height"  type="xsd:double"/>
+            <xsd:element name="bmi"  type="xsd:double"/>
+         </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:element name="person" type="personType"/>
+    <xsd:element name="healthprofile" type="healthProfileType"/> 
+
+</xsd:schema>

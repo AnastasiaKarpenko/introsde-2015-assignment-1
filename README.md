@@ -41,15 +41,32 @@ Before executing the "compile" target, ivy.jar will be downloaded into an "ivy" 
 marshals them into xml. After running marshalling target by build.xml in the main forder there will be created an XML
 file named people.xml that will contain the information about these 3 people. 
 
-- JAXBUnMarshaller.java will use people.xml (people list) to un-marshal people in the list from XML back to java objects which will be based in automatically created folder build/people/generated
+- JAXBUnMarshaller.java will use people.xml (created through marshalling process) to un-marshal people in the list from XML back to java objects which will be based in automatically created folder build/people/generated
 
 - JSONMarshaller.java creates 3 people on the basis of java objects generated previously by build.xml and marshals them into JSON. It  will create people.json file in the main root folder.
 
 ###How to run the project
 
-In the command line switch to the folder cloned from this repository and type 
+To run the whole project in the command line switch to the folder cloned from this repository and type 
   
  
     ant execute.evaluation
 
 
+If you want to run each target separately make sure you run first
+
+
+    ant compile 
+
+For running Un-Marshalling/JSON-marshalling target please first run Marshalling target
+
+
+    ant execute.JAXBMarshaller 
+
+and then run respectively for Unmarshalling / JSON-marshalling
+
+
+    ant execute.JAXBUnMarshaller 
+    	        
+    ant execute.JSONMarshaller 
+ 

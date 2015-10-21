@@ -1,7 +1,12 @@
 # introsde-2015-assignment-1
 This is the description of what is done to accomplish the assignment 1 for 
 Introduction to Service Design and Engineering course (University of Trento, EIT Digital 
-Master programme)
+Master program). 
+
+The requirements for assignment 1 can be found here: https://sites.google.com/a/unitn.it/introsde_2015-16/lab-sessions/assignments/assignment-1 
+
+Used technologies: Java, XML/XSD, JSON, XPATH, JAXB/Jackson
+
 
 
 ###Notes about the code:
